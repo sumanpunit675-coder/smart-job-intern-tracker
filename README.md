@@ -32,8 +32,9 @@ Follow these steps to set up the project locally on your machine:
 
 ### 1. Clone the Repository
 \`\`\`bash
-git clone https://github.com/your-username/smart-job-tracker.git
-cd smart-job-tracker
+
+git clone https://github.com/sumanpunit675-coder/smart-job-intern-tracker.git
+cd smart-job-intern-tracker
 \`\`\`
 
 ### 2. Backend Setup
