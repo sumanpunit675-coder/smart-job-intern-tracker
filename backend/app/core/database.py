@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.core.config import Settings
+from app.core.config import settings
 
-engine=create_engine(Settings.DATABASE_URL,
+engine=create_engine(settings.DATABASE_URL,
                      connect_args={} # it is used for providing extra features to the database driver here pymysql
                      )
 
